@@ -1,0 +1,46 @@
+body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  
+#getcity{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 20px;
+}
+.box{
+    
+    width: 700px;
+    height: 800px;
+}
+.upper{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/sunny.gif');
+    height: 60%;
+    justify-content: center;
+}
+.lower{
+    height: 50px;
+}
+#temperature{
+    font-size: 80px;
+}
+
+.list{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 75px;
+    list-style: none;
+    color: green;
+    background-color: black;
+}
